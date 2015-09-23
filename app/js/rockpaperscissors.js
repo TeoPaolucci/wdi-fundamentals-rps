@@ -83,9 +83,9 @@ function playToFive() {
 	{
 		playerMove = getPlayerMove();
 		computerMove = getComputerMove();
-		console.log(“Computer chose: “ + computerMove)
+		console.log(“Computer chose: “ + computerMove);
 		lastWinner = getWinner(playerMove, computerMove);
-		console.log(“Result of Game: “ + lastWinner)
+		console.log(“Result of Game: “ + lastWinner);
 		if (lastWinner == ‘player’)
 			{++playerWins;}
 		else if (lastWinner == ‘computer’)
